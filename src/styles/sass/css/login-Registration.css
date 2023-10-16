@@ -1,0 +1,466 @@
+body {
+  background: #F4F5F7;
+}
+
+.mainContainer {
+  display: flex;
+  padding: 160px 0px 268px 0px;
+  justify-content: center;
+  align-items: center;
+  background: #F4F5F7;
+}
+.mainContainer .form1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.mainContainer .form1 .form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+.mainContainer .form1 .form2 .formMainText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.mainContainer .form1 .form2 .formMainText > p {
+  color: #299D91;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 3.2px;
+  text-align: center;
+}
+.mainContainer .form1 .form2 .formMainText > p > span {
+  color: #299D91;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+  letter-spacing: 3.2px;
+}
+.mainContainer .form1 .form2 .inputSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .nameText {
+  overflow: hidden;
+  color: #191D23;
+  text-overflow: ellipsis;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .nameText > p {
+  whitespace: nowrap;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle {
+  display: flex;
+  width: 360px;
+  height: 30px;
+  padding: 12px 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid #4B5768;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle > input {
+  width: 314px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #4B5768;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .emailText {
+  overflow: hidden;
+  color: #191D23;
+  text-overflow: ellipsis;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .emailText > p {
+  whitespace: nowrap;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle {
+  display: flex;
+  width: 360px;
+  height: 30px;
+  padding: 12px 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid #4B5768;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle > input {
+  width: 314px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #4B5768;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .passwordText {
+  overflow: hidden;
+  color: #191D23;
+  text-overflow: ellipsis;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .passwordText > p {
+  whitespace: nowrap;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle {
+  display: flex;
+  width: 360px;
+  height: 30px;
+  padding: 12px 16px;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 8px;
+  border: 1px solid #4B5768;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle > input {
+  width: 314px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #4B5768;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
+  display: flex;
+  width: 395px;
+  height: 48px;
+  padding: 16px 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #299D91;
+}
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button > p {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.mainContainer .form1 .other {
+  width: 400px;
+  height: 24px;
+  overflow: hidden;
+  color: #299D91;
+  text-align: center;
+  text-overflow: ellipsis;
+  whitespace: nowrap;
+}
+.mainContainer .form1 .other > a {
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.mainContainer .form1 .other > span {
+  font-size: 16px;
+  font-weight: 400;
+  color: #999DA3;
+}
+
+@media (max-width: 400px) {
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle {
+    display: flex;
+    width: 320px;
+    height: 30px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #4B5768;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle > input {
+    width: 274px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #4B5768;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle {
+    display: flex;
+    width: 320px;
+    height: 30px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #4B5768;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle > input {
+    width: 274px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #4B5768;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle {
+    display: flex;
+    width: 320px;
+    height: 30px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #4B5768;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle > input {
+    width: 274px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #4B5768;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
+    width: 355px;
+  }
+  .mainContainer .form1 .other {
+    width: 360px;
+  }
+}
+@media (max-width: 360px) {
+  .mainContainer .form1 {
+    align-items: center;
+  }
+  .mainContainer .form1 .form2 .formMainText > p {
+    font-size: 34px;
+  }
+  .mainContainer .form1 .form2 .formMainText > p > span {
+    font-size: 34px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle {
+    display: flex;
+    width: 260px;
+    height: 30px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #4B5768;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle > input {
+    width: 214px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #4B5768;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle {
+    display: flex;
+    width: 260px;
+    height: 30px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #4B5768;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle > input {
+    width: 214px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #4B5768;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle {
+    display: flex;
+    width: 260px;
+    height: 30px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #4B5768;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle > input {
+    width: 214px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #4B5768;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
+    width: 295px;
+  }
+  .mainContainer .form1 .other {
+    width: 300px;
+  }
+}
+@media (max-width: 295px) {
+  .mainContainer .form1 {
+    align-items: center;
+  }
+  .mainContainer .form1 .form2 .formMainText > p {
+    font-size: 32px;
+    letter-spacing: 2.2px;
+  }
+  .mainContainer .form1 .form2 .formMainText > p > span {
+    font-size: 32px;
+    letter-spacing: 2.2px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle {
+    display: flex;
+    width: 230px;
+    height: 30px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #4B5768;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle > input {
+    width: 184px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #4B5768;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle {
+    display: flex;
+    width: 230px;
+    height: 30px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #4B5768;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle > input {
+    width: 184px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #4B5768;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle {
+    display: flex;
+    width: 230px;
+    height: 30px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #4B5768;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle > input {
+    width: 184px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #4B5768;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
+    width: 265px;
+  }
+  .mainContainer .form1 .other {
+    width: 270px;
+  }
+}/*# sourceMappingURL=login-Registration.css.map */

@@ -1,0 +1,255 @@
+@mixin ContainerForm
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    gap: 8px
+@mixin Text
+    overflow: hidden
+    color: #191D23
+    text-overflow: ellipsis
+@mixin TextP
+    whitespace: nowrap
+    font-family: Inter
+    font-size: 18px
+    font-style: normal
+    font-weight: 500
+    line-height: 24px
+@mixin inputss1 ($width:360px )
+    display: flex
+    width: $width
+    height: 30px
+    padding: 12px 16px
+    align-items: flex-start
+    gap: 24px
+    border-radius: 8px
+    border: 1px solid #4B5768
+@mixin inputss2($width:314px)
+    width: $width
+    height: 24px
+    flex-shrink: 0
+    color: #4B5768
+    font-family: Inter
+    font-size: 16px
+    font-style: normal
+    font-weight: 400
+    line-height: 22px
+body
+    background:#F4F5F7
+.mainContainer
+    display: flex
+    padding: 160px 0px 268px 0px
+    justify-content: center
+    align-items: center
+    background:#F4F5F7
+    .form1
+        display: flex
+        flex-direction: column
+        align-items: flex-start
+        gap: 40px
+        .form2
+            display: flex
+            flex-direction: column
+            align-items: center
+            gap: 64px
+            .formMainText
+                display: flex
+                flex-direction: column
+                align-items: center
+                gap: 40px
+                >p
+                    color: #299D91
+                    font-family: Poppins
+                    font-size: 40px
+                    font-style: normal
+                    font-weight: 500
+                    line-height: 32px
+                    letter-spacing: 3.2px
+                    text-align: center
+                    >span
+                        color: #299D91
+                        font-family: Poppins
+                        font-size: 40px
+                        font-style: normal
+                        font-weight: 800
+                        line-height: 32px 
+                        letter-spacing: 3.2px
+            .inputSection
+                display: flex
+                flex-direction: column
+                align-items: center
+                gap: 24px
+                .inputSection1
+                    display: flex
+                    flex-direction: column
+                    align-items: flex-start
+                    gap: 32px
+                    .inputSection2
+                        display: flex
+                        flex-direction: column
+                        align-items: flex-start
+                        gap: 24px
+                        .name
+                            @include ContainerForm
+                            .nameText
+                                @include Text
+                                >p
+                                    @include TextP
+                            .inputStyle
+                                @include inputss1
+                                >input  
+                                    @include inputss2
+                        .email
+                            @include ContainerForm
+                            .emailText
+                                @include Text
+                                >p
+                                    @include  TextP
+                            .inputStyle
+                                @include inputss1
+                                >input  
+                                    @include inputss2
+                        .password
+                            @include ContainerForm
+                            .passwordText
+                                @include Text
+                                >p
+                                    @include TextP
+                            .inputStyle
+                                @include inputss1
+                                >input
+                                    @include inputss2
+                        .inputSectionButton
+                            display: flex
+                            flex-direction: column
+                            align-items: flex-start
+                            gap: 16px
+                            >button
+                                display: flex
+                                width: 395px
+                                height: 48px
+                                padding: 16px 12px
+                                justify-content: center
+                                align-items: center
+                                border-radius: 4px
+                                background:#299D91
+                                >p
+                                    color:#FFF
+                                    text-align: center
+                                    font-family: Inter
+                                    font-size: 18px
+                                    font-style: normal
+                                    font-weight: 600
+                                    line-height: 24px
+        .other
+            width: 400px
+            height: 24px
+            overflow: hidden
+            color: #299D91
+            text-align: center
+            text-overflow: ellipsis
+            whitespace: nowrap
+            >a
+                font-family: Inter
+                font-size: 18px
+                font-style: normal
+                font-weight: 600
+                line-height: 24px
+            >span
+                font-size: 16px
+                font-weight: 400
+                color: #999DA3
+@media(max-width:400px)
+    .mainContainer
+        .form1
+            .form2
+                .inputSection
+                    .inputSection1
+                        .inputSection2
+                            .name
+                                .inputStyle
+                                    @include inputss1($width:320px )
+                                    >input
+                                        @include inputss2($width:274px)
+                            .email
+                                .inputStyle
+                                    @include inputss1($width:320px )
+                                    >input
+                                        @include inputss2($width:274px)
+                            .password
+                                .inputStyle
+                                    @include inputss1($width:320px )
+                                    >input
+                                        @include inputss2($width:274px)
+                            .inputSectionButton
+                                >button
+                                    width: 355px
+            .other
+                width: 360px
+@media(max-width:360px)
+    .mainContainer
+        .form1
+            align-items: center
+            .form2
+                .formMainText
+                    >p
+                        font-size: 34px
+                        >span
+                            font-size: 34px
+                .inputSection
+                    .inputSection1
+                        .inputSection2
+                            .name
+                                .inputStyle
+                                    @include inputss1($width:260px )
+                                    >input
+                                        @include inputss2($width:214px)
+                            .email
+                                .inputStyle
+                                    @include inputss1($width:260px )
+                                    >input
+                                        @include inputss2($width:214px)
+                            .password
+                                .inputStyle
+                                    @include inputss1($width:260px )
+                                    >input
+                                        @include inputss2($width:214px)
+                            .inputSectionButton
+                                >button
+                                    width: 295px
+            .other
+                width: 300px
+@media(max-width:295px)
+    .mainContainer
+        .form1
+            align-items: center
+            .form2
+                .formMainText
+                    >p
+                        font-size: 32px
+                        letter-spacing: 2.2px
+                        >span
+                            font-size: 32px
+                            letter-spacing: 2.2px
+                .inputSection
+                    .inputSection1
+                        .inputSection2
+                            .name
+                                .inputStyle
+                                    @include inputss1($width:230px )
+                                    >input
+                                        @include inputss2($width:184px)
+                            .email
+                                .inputStyle
+                                    @include inputss1($width:230px )
+                                    >input
+                                        @include inputss2($width:184px)
+                            .password
+                                .inputStyle
+                                    @include inputss1($width:230px )
+                                    >input
+                                        @include inputss2($width:184px)
+                            .inputSectionButton
+                                >button
+                                    width: 265px
+            .other
+                width: 270px
