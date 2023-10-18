@@ -5,6 +5,8 @@ module.exports = {
   entry: {
     main: "./script/main.js",
     password: "./script/modules/password.js",
+    registration: "./script/modules/api/registration.js",
+    login: "./script/modules/api/login.js",
   },
   output: {
     filename: "[name].js",
@@ -21,12 +23,12 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./index.html",
       filename: "index.html",
-      chunks: ["main", "password"],
+      chunks: ["main", "password", "login"],
     }),
     new HtmlWebpackPlugin({
       template: "./indexRegistration.html",
       filename: "indexRegistration.html",
-      chunks: ["main", "password"],
+      chunks: ["main", "password", "registration"],
     }),
   ],
   module: {

@@ -96,7 +96,7 @@ body
                                     @include TextP
                             .inputStyle
                                 @include inputss1
-                                >input  
+                                >input 
                                     @include inputss2
                         .email
                             @include ContainerForm
@@ -107,6 +107,7 @@ body
                             .inputStyle
                                 @include inputss1
                                 >input  
+
                                     @include inputss2
                         .password
                             @include ContainerForm
@@ -118,6 +119,15 @@ body
                                 @include inputss1
                                 >input
                                     @include inputss2
+                        .error-container
+                            display: flex
+                            color: red
+                            font-family: Inter
+                            text-align: center
+                            flex-wrap: wrap
+                            width:360px
+                            justify-content: center
+                            word-wrap: break-word
                         .inputSectionButton
                             display: flex
                             flex-direction: column
@@ -126,7 +136,7 @@ body
                             >button
                                 display: flex
                                 width: 395px
-                                height: 48px
+                                height: 52px
                                 padding: 16px 12px
                                 justify-content: center
                                 align-items: center
@@ -180,6 +190,8 @@ body
                                     @include inputss1($width:320px )
                                     >input
                                         @include inputss2($width:274px)
+                            .error-container
+                                width:320px
                             .inputSectionButton
                                 >button
                                     width: 355px
@@ -213,6 +225,8 @@ body
                                     @include inputss1($width:260px )
                                     >input
                                         @include inputss2($width:214px)
+                            .error-container
+                                width:260px
                             .inputSectionButton
                                 >button
                                     width: 295px
@@ -248,6 +262,8 @@ body
                                     @include inputss1($width:230px )
                                     >input
                                         @include inputss2($width:184px)
+                            .error-container
+                                width:230px
                             .inputSectionButton
                                 >button
                                     width: 265px

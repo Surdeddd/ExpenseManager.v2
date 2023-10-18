@@ -10,4 +10,16 @@ a {
 
 input {
   all: unset;
-}/*# sourceMappingURL=null.css.map */
+  background-color: transparent;
+}
+
+input:focus {
+  all: unset;
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #f4f5f7 inset;
+  box-shadow: 0 0 0 1000px #f4f5f7 inset;
+} /*# sourceMappingURL=null.css.map */

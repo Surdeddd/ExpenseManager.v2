@@ -13,7 +13,13 @@ input {
 }
 
 body {
-  background: #F4F5F7;
+  background: #f4f5f7;
+}
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px #f4f5f7 inset;
+  box-shadow: 0 0 0 1000px #f4f5f7 inset;
 }
 
 .mainContainer {
@@ -21,7 +27,7 @@ body {
   padding: 160px 0px 268px 0px;
   justify-content: center;
   align-items: center;
-  background: #F4F5F7;
+  background: #f4f5f7;
 }
 .mainContainer .form1 {
   display: flex;
@@ -42,7 +48,7 @@ body {
   gap: 40px;
 }
 .mainContainer .form1 .form2 .formMainText > p {
-  color: #299D91;
+  color: #299d91;
   font-family: Poppins;
   font-size: 40px;
   font-style: normal;
@@ -52,7 +58,7 @@ body {
   text-align: center;
 }
 .mainContainer .form1 .form2 .formMainText > p > span {
-  color: #299D91;
+  color: #299d91;
   font-family: Poppins;
   font-size: 40px;
   font-style: normal;
@@ -84,12 +90,27 @@ body {
   align-items: flex-start;
   gap: 8px;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .nameText {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .name
+  .nameText {
   overflow: hidden;
-  color: #191D23;
+  color: #191d23;
   text-overflow: ellipsis;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .nameText > p {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .name
+  .nameText
+  > p {
   whitespace: nowrap;
   font-family: Inter;
   font-size: 18px;
@@ -97,7 +118,14 @@ body {
   font-weight: 500;
   line-height: 24px;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .name
+  .inputStyle {
   display: flex;
   width: 360px;
   height: 30px;
@@ -105,31 +133,60 @@ body {
   align-items: flex-start;
   gap: 24px;
   border-radius: 8px;
-  border: 1px solid #4B5768;
+  border: 1px solid #4b5768;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle > input {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .name
+  .inputStyle
+  > input {
   width: 314px;
   height: 24px;
   flex-shrink: 0;
-  color: #4B5768;
+  color: #4b5768;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .email {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .emailText {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .email
+  .emailText {
   overflow: hidden;
-  color: #191D23;
+  color: #191d23;
   text-overflow: ellipsis;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .emailText > p {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .email
+  .emailText
+  > p {
   whitespace: nowrap;
   font-family: Inter;
   font-size: 18px;
@@ -137,7 +194,14 @@ body {
   font-weight: 500;
   line-height: 24px;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .email
+  .inputStyle {
   display: flex;
   width: 360px;
   height: 30px;
@@ -145,31 +209,60 @@ body {
   align-items: flex-start;
   gap: 24px;
   border-radius: 8px;
-  border: 1px solid #4B5768;
+  border: 1px solid #4b5768;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle > input {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .email
+  .inputStyle
+  > input {
   width: 314px;
   height: 24px;
   flex-shrink: 0;
-  color: #4B5768;
+  color: #4b5768;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .password {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .passwordText {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .password
+  .passwordText {
   overflow: hidden;
-  color: #191D23;
+  color: #191d23;
   text-overflow: ellipsis;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .passwordText > p {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .password
+  .passwordText
+  > p {
   whitespace: nowrap;
   font-family: Inter;
   font-size: 18px;
@@ -177,7 +270,14 @@ body {
   font-weight: 500;
   line-height: 24px;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .password
+  .inputStyle {
   display: flex;
   width: 360px;
   height: 30px;
@@ -185,26 +285,47 @@ body {
   align-items: flex-start;
   gap: 24px;
   border-radius: 8px;
-  border: 1px solid #4B5768;
+  border: 1px solid #4b5768;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle > input {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .password
+  .inputStyle
+  > input {
   width: 314px;
   height: 24px;
   flex-shrink: 0;
-  color: #4B5768;
+  color: #4b5768;
   font-family: Inter;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 22px;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .inputSectionButton {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .inputSectionButton
+  > button {
   display: flex;
   width: 395px;
   height: 48px;
@@ -212,10 +333,18 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 4px;
-  background: #299D91;
+  background: #299d91;
 }
-.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button > p {
-  color: #FFF;
+.mainContainer
+  .form1
+  .form2
+  .inputSection
+  .inputSection1
+  .inputSection2
+  .inputSectionButton
+  > button
+  > p {
+  color: #fff;
   text-align: center;
   font-family: Inter;
   font-size: 18px;
@@ -227,7 +356,7 @@ body {
   width: 400px;
   height: 24px;
   overflow: hidden;
-  color: #299D91;
+  color: #299d91;
   text-align: center;
   text-overflow: ellipsis;
   whitespace: nowrap;
@@ -242,11 +371,18 @@ body {
 .mainContainer .form1 .other > span {
   font-size: 16px;
   font-weight: 400;
-  color: #999DA3;
+  color: #999da3;
 }
 
 @media (max-width: 400px) {
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .name
+    .inputStyle {
     display: flex;
     width: 320px;
     height: 30px;
@@ -254,20 +390,35 @@ body {
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
-    border: 1px solid #4B5768;
+    border: 1px solid #4b5768;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle > input {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .name
+    .inputStyle
+    > input {
     width: 274px;
     height: 24px;
     flex-shrink: 0;
-    color: #4B5768;
+    color: #4b5768;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .email
+    .inputStyle {
     display: flex;
     width: 320px;
     height: 30px;
@@ -275,20 +426,35 @@ body {
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
-    border: 1px solid #4B5768;
+    border: 1px solid #4b5768;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle > input {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .email
+    .inputStyle
+    > input {
     width: 274px;
     height: 24px;
     flex-shrink: 0;
-    color: #4B5768;
+    color: #4b5768;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .password
+    .inputStyle {
     display: flex;
     width: 320px;
     height: 30px;
@@ -296,20 +462,35 @@ body {
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
-    border: 1px solid #4B5768;
+    border: 1px solid #4b5768;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle > input {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .password
+    .inputStyle
+    > input {
     width: 274px;
     height: 24px;
     flex-shrink: 0;
-    color: #4B5768;
+    color: #4b5768;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .inputSectionButton
+    > button {
     width: 355px;
   }
   .mainContainer .form1 .other {
@@ -326,7 +507,14 @@ body {
   .mainContainer .form1 .form2 .formMainText > p > span {
     font-size: 34px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .name
+    .inputStyle {
     display: flex;
     width: 260px;
     height: 30px;
@@ -334,20 +522,35 @@ body {
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
-    border: 1px solid #4B5768;
+    border: 1px solid #4b5768;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle > input {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .name
+    .inputStyle
+    > input {
     width: 214px;
     height: 24px;
     flex-shrink: 0;
-    color: #4B5768;
+    color: #4b5768;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .email
+    .inputStyle {
     display: flex;
     width: 260px;
     height: 30px;
@@ -355,20 +558,35 @@ body {
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
-    border: 1px solid #4B5768;
+    border: 1px solid #4b5768;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle > input {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .email
+    .inputStyle
+    > input {
     width: 214px;
     height: 24px;
     flex-shrink: 0;
-    color: #4B5768;
+    color: #4b5768;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .password
+    .inputStyle {
     display: flex;
     width: 260px;
     height: 30px;
@@ -376,20 +594,35 @@ body {
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
-    border: 1px solid #4B5768;
+    border: 1px solid #4b5768;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle > input {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .password
+    .inputStyle
+    > input {
     width: 214px;
     height: 24px;
     flex-shrink: 0;
-    color: #4B5768;
+    color: #4b5768;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .inputSectionButton
+    > button {
     width: 295px;
   }
   .mainContainer .form1 .other {
@@ -408,7 +641,14 @@ body {
     font-size: 32px;
     letter-spacing: 2.2px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .name
+    .inputStyle {
     display: flex;
     width: 230px;
     height: 30px;
@@ -416,20 +656,35 @@ body {
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
-    border: 1px solid #4B5768;
+    border: 1px solid #4b5768;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .name .inputStyle > input {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .name
+    .inputStyle
+    > input {
     width: 184px;
     height: 24px;
     flex-shrink: 0;
-    color: #4B5768;
+    color: #4b5768;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .email
+    .inputStyle {
     display: flex;
     width: 230px;
     height: 30px;
@@ -437,20 +692,35 @@ body {
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
-    border: 1px solid #4B5768;
+    border: 1px solid #4b5768;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .email .inputStyle > input {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .email
+    .inputStyle
+    > input {
     width: 184px;
     height: 24px;
     flex-shrink: 0;
-    color: #4B5768;
+    color: #4b5768;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .password
+    .inputStyle {
     display: flex;
     width: 230px;
     height: 30px;
@@ -458,20 +728,35 @@ body {
     align-items: flex-start;
     gap: 24px;
     border-radius: 8px;
-    border: 1px solid #4B5768;
+    border: 1px solid #4b5768;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .password .inputStyle > input {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .password
+    .inputStyle
+    > input {
     width: 184px;
     height: 24px;
     flex-shrink: 0;
-    color: #4B5768;
+    color: #4b5768;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
   }
-  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
+  .mainContainer
+    .form1
+    .form2
+    .inputSection
+    .inputSection1
+    .inputSection2
+    .inputSectionButton
+    > button {
     width: 265px;
   }
   .mainContainer .form1 .other {

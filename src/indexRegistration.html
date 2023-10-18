@@ -21,7 +21,7 @@
                       <p>Имя</p>
                     </div>
                     <div class="inputStyle">
-                      <input type="text" name="name" />
+                      <input type="text" name="name" id="name-input" />
                     </div>
                   </div>
                   <div class="email">
@@ -29,7 +29,12 @@
                       <p>Email</p>
                     </div>
                     <div class="inputStyle">
-                      <input type="email" name="email" />
+                      <input
+                        type="email"
+                        name="email"
+                        id="email-input"
+                        autocomplete="email"
+                      />
                     </div>
                   </div>
                   <div class="password">
@@ -41,12 +46,14 @@
                         type="password"
                         name="password"
                         id="password-input"
+                        minlength="8"
                       />
                       <img src="static/icon/eye.png" id="toggle-password" />
                     </div>
                   </div>
+                  <div class="error-container" id="error-container"></div>
                   <div class="inputSectionButton">
-                    <button type="submit">
+                    <button type="submit" id="register-btn">
                       <p>Создать акаунт</p>
                     </button>
                   </div>

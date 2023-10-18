@@ -184,6 +184,16 @@ body {
   font-weight: 400;
   line-height: 22px;
 }
+.mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .error-container {
+  display: flex;
+  color: red;
+  font-family: Inter;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 360px;
+  justify-content: center;
+  word-wrap: break-word;
+}
 .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton {
   display: flex;
   flex-direction: column;
@@ -193,7 +203,7 @@ body {
 .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
   display: flex;
   width: 395px;
-  height: 48px;
+  height: 52px;
   padding: 16px 12px;
   justify-content: center;
   align-items: center;
@@ -295,6 +305,9 @@ body {
     font-weight: 400;
     line-height: 22px;
   }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .error-container {
+    width: 320px;
+  }
   .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
     width: 355px;
   }
@@ -374,6 +387,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .error-container {
+    width: 260px;
   }
   .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
     width: 295px;
@@ -456,6 +472,9 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 22px;
+  }
+  .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .error-container {
+    width: 230px;
   }
   .mainContainer .form1 .form2 .inputSection .inputSection1 .inputSection2 .inputSectionButton > button {
     width: 265px;
